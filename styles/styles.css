@@ -1,0 +1,130 @@
+/* NAVBAR */
+.navbar-layout{
+    background-color: #0F257C;
+}
+
+.navbar-layout a{
+    color: white;
+    font-size: 0.85rem;
+}
+
+.dropdown-item{
+    color: black;
+    font-size: 0.85rem;
+}
+
+/* HAMBURGUER MENU */
+.navbar-nav li{
+    text-align: center;
+}
+
+.dropdown-menu{
+    text-align: center;
+}
+
+@media screen and (min-width:200px){
+
+    .navbar-layout-img1{
+        width: 30px;
+        height: 21px;
+    }
+    .navbar-layout-img2{
+        width: 22px;
+        height: 21px;
+    }
+    .navbar-brand{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+
+    .navbar-layout-img1{
+        width: 35px;
+        height: 26px;
+    }
+    .navbar-layout-img2{
+        width: 27px;
+        height: 26px;
+    }
+    .navbar-brand{
+        font-size: 1rem;
+    }
+}
+
+
+/* NAVBAR END
+
+/* carousel */
+
+@media screen and (min-width:200px){
+
+    .bd-example .carousel-inner img{
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    h1{
+        font-size: 5px;
+        color: #304199;
+    }
+
+
+}
+
+h1{
+    color: #304199;
+}
+
+/* POSGRADOS */
+.posgrados-items:hover{
+    background: rgb(24, 58, 194);
+}
+
+.posgrados a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width:200px){
+    
+        .posgrados-layout{
+            top: 100px;
+            background: #0F257C;
+        }
+    
+        .posgrados{
+            background: #0F257C;
+            color: white;
+            text-align: center;
+        }
+    
+    
+    }
+
+@media screen and (min-width:1024px){
+
+/*     .imageuagrm{
+        position: absolute;
+    }
+
+    .posgrados-layout{
+        position: relative;
+        top: 35.4rem;
+        background: #0F257C;
+    } */
+
+    .posgrados-layout{
+        top: 35.4rem;
+        background: #0F257C;
+    }
+
+    .posgrados{
+        background: #0F257C;
+        color: white;
+        text-align: center;
+    }
+
+
+}
+
