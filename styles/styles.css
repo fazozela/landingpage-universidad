@@ -127,3 +127,64 @@
 
 /* ***************************************************************************** */
 
+/* DIPLOMADOS MAESTRIAS Y DOCTORADOS*/
+
+.diplomado-content-text{
+    display: flex;
+    align-items: center;
+    background: rgb(54, 54, 54);
+    border: solid 1px white;
+    
+}
+
+.boton{
+    color: white;
+    border: solid 1px rgb(219, 219, 219);
+
+}
+
+@media screen and (min-width:200px){
+    h3{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .diplomado-content-text{
+        font-size: 0.7rem;
+        margin: 2px;
+    }
+    
+    .boton{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width:1024px){
+    h3{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .diplomado-content-text{
+        font-size: 1.1rem;
+        margin: 5px;
+    }
+    
+    .boton{
+        font-size: 1.3rem;
+    }
+}
+
+/* ***************************************************************************** */
+
+/* FOOTER */
+
+#footer{
+    background: #0F257C;
+    color: white;
+}
+
+#footer a{
+    color: white;
+}
